@@ -5,3 +5,14 @@ date_var=`date|cut -d " " -f1-3,4|awk '{print "Current Time is: " $4 "----------
 echo ${date_var} > time_date_logged_id_uptime.log
 
 echo "*******************************" >> time_date_logged_id_uptime.log
+# Find logged-in user-ID:
+logged_user=`who | cut -d' ' -f1 | sort | uniq`
+
+echo "Currently logged users name: $logged_user" >> time_date_logged_id_uptime.log
+
+#Get system uptime info:
+system_uptime=`uptime`
+
+echo "******************************" >> time_date_logged_id_uptime.log
+echo "System Uptime: $system_uptime" >>  time_date_logged_id_uptime.log
+
