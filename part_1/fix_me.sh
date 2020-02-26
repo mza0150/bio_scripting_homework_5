@@ -5,7 +5,8 @@ echo 'Enter a : '
 read a
 echo 'Enter b : ' 
 read b
-
+echo 'Enter c : '
+read c
 add=$((a + b))
 
 echo Addition of a and b are $add
