@@ -63,7 +63,7 @@ print("a + b =", total, ", which is a", type(total))
 difference = a - b
 print("a - b =", difference, ", which is a", type(difference))
 
-    product = a * b
+product = a * b
 print("a * b =", product, ", which is a", type(product))
 
 quotient = a / b
