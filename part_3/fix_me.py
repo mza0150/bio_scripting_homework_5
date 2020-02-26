@@ -58,7 +58,7 @@ print("Now \"b\" equals", b, "and is a", type(b))
 
 
 total = a + b
- print("a + b =", total, ", which is a", type(total))
+print("a + b =", total, ", which is a", type(total))
 
 difference = a - b
 print("a - b =", difference, ", which is a", type(difference))
